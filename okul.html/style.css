@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+   
+}
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-RkfVC4JSYaz1abXbCBd1J8zejPQv6QKeAEo3FrJg9DWUNVyUqevzdcASu9YK6gQe6o&usqp=CAU);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+background-size: 1px;
+background: linear-gradient(black, whitesmoke);
+
+
+}
+
+body::after {
+   
+}
+
+    
+
+
+
+.container {
+    overflow: hidden;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav .logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+color: #e80202;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.content .text{
+    color: #Fff;
+    width: 40%;
+}
+.content .text:hover{
+  
+}
+.content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.content .text h2:hover{
+color: red;
+}
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.content .image{
+    width: 40%;
+
+}
+.content .image img{
+    width: 400px;
+    
+}
+@media (min-width:950px) and (max-width:1500px){
+    .content .image img{
+        width: 400px;
+        
+    }
+ 
+}
+
+.icon {
+    background-color: red;
+}
+.text a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 20px;
+    border-bottom: 10px;
+    background-color: red;
+    
+}
+.about{
+   
+    border-radius: 20px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about:hover{
+    
+}
+.text:hover{
+    
+}
+.fs a{
+   padding-left: 30px;
+   padding-right: 30px;
+}
